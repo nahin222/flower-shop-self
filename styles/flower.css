@@ -1,0 +1,212 @@
+/*common shared style*/
+body {
+    font-family: "Lato";
+}
+
+.text-primary {
+    /*this color is used multiple time in the same site, so considering it the site's primary text color*/
+    color: #E55473;
+}
+
+/*banner related style*/
+.banner{
+
+    background:rgba(229, 84, 115, 0.10);
+    display:flex;                       /*image next line theke pashe anlam
+    align-items: center;                /*vertical align*/
+    justify-content: space-between;     /*banner content ar image taar moddhe space between dilam */
+}
+
+
+.banner-title{
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin:197px 97px 32px 240px;
+}
+
+.banner-para{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 171px 32px 240px;
+}
+
+.shop-now{
+    margin:0px 628px 147px 240px;
+    padding:20px 43px 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.BigPinkFlowers{
+    margin:50px 240px 0px 0px;
+}
+
+/*section related styles*/
+
+.hot-deal{
+    border-radius: 8px;
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin:230px 215px 24px 423px;
+}
+
+.hot-deal-para{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 186px 32px 395px;
+    text-align: center;
+}
+
+.sign-up{
+    margin:0px 417px 162px 603px;
+    padding:20px 43px 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.Roses-in-vase{
+    margin: 100px 429px 100px 0px;
+}
+
+
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 128px 870px 24px 870px;
+}
+
+.insta-para{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 663px 48px 663px;
+}
+
+.image-showcase{
+    display: flex;
+    gap: 24px;
+    margin:0px 240px 128px 240px;
+}
+
+.showcase{
+    max-width: 342px;
+    max-height: 396px;
+    
+}
+
+.get-latest-deal{
+    margin: 0px 240px 128px 240px;
+}
+
+.latest-deals-content{
+    background-image:url('../assets/Rectangle9.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 1440px;
+    height: 449px;
+}
+
+.deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin:0px 534px 16px 533px;
+    padding: 122px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.deals-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:0px 605px 48px 604px;
+}
+
+.form{
+    display:block;
+    margin:auto;
+    border: none;
+    padding: 18px 350px 18px 30px;
+    color:#757575;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+}
+
+.submit{
+    padding:20px 43px 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*footer styles*/
+
+footer{
+    background: #111010;
+}
+
+.footer-title{
+    margin: 0px 832px 24px 831px;
+    padding: 128px 0px 0px 0px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    margin: 0px 649px 32px 648px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.rights{
+    margin: 0px 783px 0px 784px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 128px 0px;
+
+}
