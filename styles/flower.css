@@ -155,11 +155,10 @@ body {
     margin:0px 605px 48px 604px;
 }
 
-.form{
-    display:block;
-    margin:auto;
+.email-form{
+    margin:0px 16px 0px 287px;
     border: none;
-    padding: 18px 350px 18px 30px;
+    padding: 23px 513px 22px 22px;
     color:#757575;
     background: #FFF;
     font-size: 16px;
@@ -168,8 +167,8 @@ body {
     border-radius: 5px;
 }
 
-.submit{
-    padding:20px 43px 20px 43px;
+.subscribe{
+    padding: 18.29px 31px 18.29px 31px;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -177,6 +176,11 @@ body {
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
+}
+
+.contact{
+    display:flex;
+    
 }
 
 /*footer styles*/
