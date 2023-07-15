@@ -148,12 +148,12 @@ figcaption{
 .why-chose-us{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0px 240px 128px 240px;
+    margin: 0px 100px 128px 280px;
 }
 
 .features-container{
     
-    display: flex;
+     display: flex; 
     justify-content: space-around;
     padding: 86px 175px 87px 175px;
 }
@@ -162,16 +162,36 @@ figcaption{
 
 .feature-desc{
     color: rgba(39, 39, 39, 0.80);
-    text-align: center;
+    padding-top: 24px;
+    /* text-align: center; */
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
 }
 
+#figdes1{
 
+}
 
+#figdes2{
+    
+}
 
+#figdes3{
+    
+}
 
+#IG1{
+    padding: 0px 180px 0px 160px;
+}
+
+#IG2{
+    padding: 0px 138px 0px 180px;
+}
+
+#IG3{
+    padding: 0px 232px 0px 138px;
+}
 
 
 
