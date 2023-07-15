@@ -143,6 +143,40 @@ figcaption{
     white-space: nowrap;
 }
 
+/*why chose us*/
+
+.why-chose-us{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0px 240px 128px 240px;
+}
+
+.features-container{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 175px 87px 175px;
+}
+
+
+
+.feature-desc{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
 
 .hot-deal{
     border-radius: 8px;
